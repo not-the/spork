@@ -17,3 +17,13 @@ body {
     padding: 20px 24px 24px;
 }
 h1 { padding-bottom: 12px; }
+button {
+  width: 140px;
+  max-width: 100%;
+  padding: 6px 12px;
+  
+  background-color: rgb(140, 50, 48);
+  border: 2px solid rgb(85, 23, 23);
+  color: white;
+  font-size: 14pt;
+}
