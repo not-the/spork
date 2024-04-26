@@ -13,6 +13,19 @@
         <p>
             RED WEBSITE. red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red red
         </p>
+        <br/>
+        <p>
+            Click me!
+            <button>0</button>
+        </p>
     </div>
+
+    <script>
+        let counter = 0;
+        let btn = document.querySelector('button');
+        btn.addEventListener('click', () => {
+            btn.innerText = counter++;
+        })
+    </script>
 </body>
 </html>
